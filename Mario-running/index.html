@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang = 'en'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<title>
+		Dino Run
+	</title>
+</head>
+<body>
+	<div class = "topbar">
+		<div id = "logo">
+			DINO RUN
+		</div>
+	</div>
+	<div id = "game_view">
+		<div id = "start_screen">
+			<div id = "username">
+			</div>
+			<div id = "scores">
+				<div id = "present_score">
+					Score : 0
+				</div>
+<!--		<div id = "high_score">
+					Highscore : 0
+				</div>
+-->
+			</div>
+			<div id = "game_name">
+				Inspired from Google's Dino Game
+			</div>
+			<div id = "name_input">
+				<input autocomplete = "off" type = "text" id = "name" placeholder = "NAME">
+			</div>
+			<div id = "play_button">
+				<button id = "play">
+					Play
+				</button>
+			</div>
+			<div id = "alert">
+			</div>
+			<canvas id = "canvas" width = "1200" height = "500">
+			</canvas>
+		</div>
+	</div>
+</body>
+
+<script type = "text/javascript" src = "elements/hero.js"></script>
+<script type = "text/javascript" src = "elements/line.js"></script>
+<script type = "text/javascript" src = "elements/obstacles.js"></script>
+<script type = "text/javascript" src = "elements/game.js"></script>
+
+</html>
